@@ -25,11 +25,12 @@ Install [RfCat](https://github.com/atlas0fd00m/rfcat) on your machine (it should
 
 ## Getting started:
 
+Make sure you have a wire attatched to the GPIO pin of your Raspberry Pi to act as an antenna.
+
 "cd" into your Rpitx folder and run:
 ```
 ./rtlmenu.sh
 ```
-
 Set your frequencies to be slightly higher or lower than the target frequency.
 
 Select and run option 3 (Transcode FM...) to Jam and force the vehicle to ignore the target's unexpired key.
