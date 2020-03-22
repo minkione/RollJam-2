@@ -1,7 +1,7 @@
 # RollJam
 
 This is a Github repository devoted to delivering to you
-the necessary and required tools and hardware to perform Samy Kamkar's RollJam attack.
+the necessary and required tools and hardware to perform [Samy Kamkar](https://github.com/samyk)'s RollJam attack.
 
 *This is for educational purposes only.
 I am in NO WAY liable for any actions executed by means of the contents within this
