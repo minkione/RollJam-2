@@ -17,11 +17,11 @@ repository. PLEASE use responsibly.*
 • SDR Dongle (Only necessary for finding the frequency of target; you can just guess without it)
 ### Software:
 
-Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on your Raspberry Pi
+• Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on your Raspberry Pi
 
-Install [Rpitx](https://github.com/F5OEO/rpitx) on your Raspberry Pi
+• Install [Rpitx](https://github.com/F5OEO/rpitx) on your Raspberry Pi
 
-Install [RfCat](https://github.com/atlas0fd00m/rfcat) on your machine (it should be a portable laptop)
+• Install [RfCat](https://github.com/atlas0fd00m/rfcat) on your machine (it should be a portable laptop)
 
 ## Getting started:
 
