@@ -29,11 +29,9 @@ Make sure you have a wire attatched to the GPIO pin of your Raspberry Pi to act 
 
 "cd" into your Rpitx folder and run:
 ```
-./rtlmenu.sh
+sudo ./sendiq -i /dev/stdin -s 96000 -f <frequency> -t float
 ```
 Set your frequencies to be slightly higher or lower than the target frequency.
-
-Select and run option 3 (Transcode FM...) to Jam and force the vehicle to ignore the target's unexpired key.
 
 Run replay.py (Credit to [AndrewMohawk](https://github.com/AndrewMohawk) and their [RfCatHelpers](https://github.com/AndrewMohawk/RfCatHelpers) repository) to listen for the unexpired key.
 
