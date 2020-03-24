@@ -31,7 +31,7 @@ Make sure you have a wire attatched to the GPIO pin of your Raspberry Pi to act 
 ```
 sudo ./sendiq -i /dev/stdin -s 96000 -f <frequency> -t float
 ```
-Set your frequencies to be slightly higher or lower than the target frequency.
+Set your frequency to be slightly higher or lower than the target frequency.
 
 Run replay.py (Credit to [AndrewMohawk](https://github.com/AndrewMohawk) and their [RfCatHelpers](https://github.com/AndrewMohawk/RfCatHelpers) repository) to listen for the unexpired key.
 
