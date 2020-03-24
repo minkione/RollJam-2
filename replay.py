@@ -37,7 +37,6 @@ d.lowball(1)
 print "Searching..."
 while True:
 	try:
-		
 		y, t = d.RFrecv(1)
 		sampleString=y.encode('hex')
 		#print sampleString
@@ -51,10 +50,6 @@ while True:
 				print "Found " + str(sampleString)
 				if(len(rawCapture) >= results.numSignals):
 					break;
-		
-			
-		
-		
 	except ChipconUsbTimeoutException:
 		pass
 	except KeyboardInterrupt:
@@ -73,7 +68,6 @@ while True:
 		freq = raw_input("Press <enter> to resend or type the frequency you wish to send on now:")
 		if(freq != ''):
 			d.setFreq(int(freq))
-			
 		for i in range(0,len(rawCapture)):
 			key_packed = bitstring.BitArray(hex=rawCapture[i]).tobytes()
 			if(results.waitForKeypress == True):
