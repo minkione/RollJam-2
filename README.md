@@ -37,4 +37,4 @@ Run replay.py (Credit to [AndrewMohawk](https://github.com/AndrewMohawk) and the
 
 Once the key or keys are captured, you may stop jamming.
 
-You now have an unexpired key to use on the target.
+You now have an unexpired key to use on the target!
