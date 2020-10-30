@@ -10,7 +10,7 @@ repository. PLEASE use responsibly.*
 ## Prerequisites:
 
 ### Hardware:
-• Raspberry Pi (Zero NOT reccomended)
+• Raspberry Pi (3B+ reccomended)
 
 • YARD Stick One (With ANT500 Telescopic antenna, reccomended)
 
