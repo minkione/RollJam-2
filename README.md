@@ -37,6 +37,6 @@ Run replay.py (Credit to [AndrewMohawk](https://github.com/AndrewMohawk) and the
 ```
 python replay.py -f <frequency> -n <number of keys to collect>
 ```
-Once the key or keys are captured, you may stop jamming.
+Once the key(s) are captured, you may stop jamming.
 
 You now have an unexpired key to use on the target!
