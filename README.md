@@ -14,7 +14,7 @@ repository. PLEASE use responsibly.*
 
 • YARD Stick One (With ANT500 Telescopic antenna, reccomended)
 
-• SDR Dongle (Only necessary for finding the frequency of target; you can just guess without it)
+• SDR Dongle (Only necessary for finding the frequency of target; Without it, you can do a plate lookup and find the fob frequency online)
 ### Software:
 
 • Install [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on your Raspberry Pi
