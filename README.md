@@ -33,8 +33,10 @@ sudo ./sendiq -i /dev/stdin -s 96000 -f <frequency> -t float
 ```
 Set your frequency to be slightly higher or lower than the target frequency.
 
-Run replay.py (Credit to [AndrewMohawk](https://github.com/AndrewMohawk) and their [RfCatHelpers](https://github.com/AndrewMohawk/RfCatHelpers) repository) to listen for the unexpired key.
-
+Run replay.py (Credit to [AndrewMohawk](https://github.com/AndrewMohawk) and their [RfCatHelpers](https://github.com/AndrewMohawk/RfCatHelpers) repository) to listen for the unexpired key:
+```
+python replay.py -f <frequency> -n <number of keys to collect>
+```
 Once the key or keys are captured, you may stop jamming.
 
 You now have an unexpired key to use on the target!
